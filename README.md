@@ -42,14 +42,32 @@
 |     2.     |     Verify   log in with registered log in credentials                                                                                       |                        |     smoke            |
 |     3.     |     Verify that the user is able to login by entering valid credentials   and clicking on the ‘Log In’ button.                               |                        |     Critical path    |
 |     4.     |     Verify that the user is able to login by entering valid credentials   and pressing Enter key.                                            |                        |     Critical path    |
-|     5.     |     Verify that the user is able to navigate the form by pressing the   ‘Tab’ key on the keyboard.                                           |                        |     Extended        |
+|     5.     |     Verify that the user is able to navigate the form by pressing the   ‘Tab’ key on the keyboard.                                           |                        |     Critical path    |
 |     6.     |     Verify the log in   with Google account after entering correct email/phone number and incorrect   password                               |                        |     Critical path    |
-|     7.     |     Check the ‘forgot   your password’ link is displayed on a page if entering incorrect password                                            |                        |             |
-|     8.     |     Verify that the validation message gets displayed in case the user   leaves the e-mail/phone number field or password field as blank.    |                        |            |
-|     9.     |     Check the ‘eye icon’ for showing/hiding the password                                                                                     |                        |   Extended          |
-|     10.    |     Verify that closing the browser should not log-out an authenticated   user                                                               |                        |            |
+|     7.     |     Check the ‘forgot   your password’ link is displayed on a page if entering incorrect password                                            |                        |     Critical path    |
+|     8.     |     Verify that the validation message gets displayed in case the user   leaves the e-mail/phone number field or password field as blank.    |                        |     Critical path    |
+|     9.     |     Check the ‘eye icon’ for showing/hiding the password                                                                                     |                        |     Extended         |
+|     10.    |     Verify that closing the browser should not log-out an authenticated   user                                                               |                        |     Critical path    |
 |     11.    |     Check that the user is not able to login with an invalid e-mail, phone   number and password.                                            |                        |     Critical path    |
-|     12.    |     Check placeholder   text for all the fields                                                                                              |                        |            |
-|     13.    |     Check font size,   text color and contrast  is easy to   read and perceive without additional tools                                      |                        |     Extended        |
-|     14.    |     Check spelling   mistakes of ‘log in’ form                                                                                               |                        |  
-			
+|     12.    |     Check placeholder   text for all the fields                                                                                              |                        |     Extended         |
+|     13.    |     Check font size,   text color and contrast  is easy to   read and perceive without additional tools                                      |                        |     Extended         |
+|     14.    |     Check spelling   mistakes of ‘log in’ form                                                                                               |                        |     Extended         |
+
+# Forgot Password
+|     №      |     Checks                                                                                       |     Expected result    |     Type              |
+|------------|--------------------------------------------------------------------------------------------------|------------------------|-----------------------|
+|     1.     |     Verify if the forgot   password link is working correctly and landing on the correct page    |                        |     Critical path     |
+|     2.     |     Check all ways to   reset password (using google account, send code via e-mail, via sms)     |                        |     Smoke             |
+|     3.     |     Check the preferable way   to reset password can be chosen by radio button                   |                        |     Critical path     |
+|     4.     |     Check the ‘continue’   button directs to ‘enter security code’ page                          |                        |     Critical path     |
+|     5.     |     Check the security   code field                                                              |                        |     Critical path     |
+|     6.     |     Check the letter is   send to e-mail id with security code and link                          |                        |     Critical path     |
+|            |                                                                                                  |                        |     Critical path     |
+|     7.     |     Verify if the code for reset   password is send via sms for indicated phone number           |                        |     Critical path     |
+|     8.     |     Check the confirmation   letter is send to e-mail that the password has been changed         |                        |     Critical path     |
+|     9.     |     Verify if the login   is possible with the newly changed password.                           |                        |     Critical Path     |
+|            |                                                                                                  |                        |                       |
+|     10.    |     Check if the link and   code is live/applicable for one-time use only                        |                        |     Critical Path     |
+|     11.    |     Check the link ‘didn’t   get a code’ directs to ‘reset your password’ page                   |                        |     Critical Path     |
+|     12.    |     Check ‘not you’   button directs to ‘find your account’ page                                 |                        |     Critical Path     |
+|     13.    |     Check the link ‘no   longer access to this?’ direct to ‘try to log in again’ page            |                        |     Extended          |
