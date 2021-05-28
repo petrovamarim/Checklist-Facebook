@@ -42,14 +42,14 @@
 |     2.     |     Verify   log in with registered log in credentials                                                                                       |                        |     smoke            |
 |     3.     |     Verify that the user is able to login by entering valid credentials   and clicking on the ‘Log In’ button.                               |                        |     Critical path    |
 |     4.     |     Verify that the user is able to login by entering valid credentials   and pressing Enter key.                                            |                        |     Critical path    |
-|     5.     |     Verify that the user is able to navigate the form by pressing the   ‘Tab’ key on the keyboard.                                           |                        |     Pass/Fail        |
+|     5.     |     Verify that the user is able to navigate the form by pressing the   ‘Tab’ key on the keyboard.                                           |                        |     Extended        |
 |     6.     |     Verify the log in   with Google account after entering correct email/phone number and incorrect   password                               |                        |     Critical path    |
-|     7.     |     Check the ‘forgot   your password’ link is displayed on a page if entering incorrect password                                            |                        |     Pass/Fail        |
-|     8.     |     Verify that the validation message gets displayed in case the user   leaves the e-mail/phone number field or password field as blank.    |                        |     Pass/Fail        |
-|     9.     |     Check the ‘eye icon’ for showing/hiding the password                                                                                     |                        |     Pass/Fail        |
-|     10.    |     Verify that closing the browser should not log-out an authenticated   user                                                               |                        |     Pass/Fail        |
+|     7.     |     Check the ‘forgot   your password’ link is displayed on a page if entering incorrect password                                            |                        |             |
+|     8.     |     Verify that the validation message gets displayed in case the user   leaves the e-mail/phone number field or password field as blank.    |                        |            |
+|     9.     |     Check the ‘eye icon’ for showing/hiding the password                                                                                     |                        |   Extended          |
+|     10.    |     Verify that closing the browser should not log-out an authenticated   user                                                               |                        |            |
 |     11.    |     Check that the user is not able to login with an invalid e-mail, phone   number and password.                                            |                        |     Critical path    |
-|     12.    |     Check placeholder   text for all the fields                                                                                              |                        |     Pass/Fail        |
-|     13.    |     Check font size,   text color and contrast  is easy to   read and perceive without additional tools                                      |                        |     Pass/Fail        |
+|     12.    |     Check placeholder   text for all the fields                                                                                              |                        |            |
+|     13.    |     Check font size,   text color and contrast  is easy to   read and perceive without additional tools                                      |                        |     Extended        |
 |     14.    |     Check spelling   mistakes of ‘log in’ form                                                                                               |                        |  
 			
